@@ -1,7 +1,7 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 
 .container-slide{
     display: flex;
@@ -9,10 +9,11 @@
     width: 50vw;
     height: 50vh;
     background-color: black;
-    margin: 20vh auto;
+    margin-left: 49vh;
     border-radius: 10px;
     box-shadow: 0 20px 30px black;
     border: 5px solid black;
+    border-bottom: 0px;
 }
 
 .container-items {
@@ -22,6 +23,7 @@
     height: 50vh;
     border-radius: 10px;
     overflow: hidden;
+    margin-bottom: 0px;
 }
 
 .item {
@@ -55,4 +57,13 @@
     border-radius: 10px;
     cursor: pointer;
     transition: all 1s;
+}
+.indicador{
+    width: 50.7vw;
+    height: 3vw;
+    background-color: aqua;
+    z-index: -1;
+    margin-left: 49vh;
+    margin-top: 0px;
+
 }
